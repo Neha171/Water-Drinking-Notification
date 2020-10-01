@@ -23,7 +23,7 @@ if __name__ == '__main__':
                   " 2. Hydration Has a Major Effect on Energy Levels and Brain Function" \
                   "3. Drinking Water May Help to Prevent and Treat Headaches" \
                   "4. Drinking More Water Can Help With Weight Loss" ,
-                  app_icon = "D:\Others\PycharmProjects\CodeWithAbhinav\icon.ico",
+                  app_icon = "E:\\Notification\\icon.ico",
                   timeout = 10
         )
         time.sleep(1800)
