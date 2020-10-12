@@ -13,7 +13,7 @@ class Main:
                        "3. Drinking Water May Help to Prevent and Treat Headaches" \
                         "4. Drinking More Water Can Help With Weight Loss"
 
-        self.icon_path = os.path.join(os.getcwd, "icon.ico")
+        self.icon_path = os.path.join(os.getcwd(), "icon.ico")
         self.sleep_duration = 1800
         self.main_loop()
 
