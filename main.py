@@ -4,8 +4,7 @@ from plyer import notification
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-# print(voices[1].id)
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[0].id)
 
 def speak(audio):
     engine.say(audio)
@@ -24,6 +23,6 @@ if __name__ == '__main__':
                   "3. Drinking Water May Help to Prevent and Treat Headaches" \
                   "4. Drinking More Water Can Help With Weight Loss" ,
                   app_icon = "E:\\Notification\\icon.ico",
-                  timeout = 10
+                  timeout = 15
         )
-        time.sleep(1800)
+        time.sleep(3600)
