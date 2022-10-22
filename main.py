@@ -25,4 +25,4 @@ if __name__ == '__main__':
                   app_icon = "E:\\Notification\\icon.ico",
                   timeout = 15
         )
-        time.sleep(3600)
+        time.sleep(1800)
